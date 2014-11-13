@@ -1,9 +1,10 @@
 <?php 
 	ob_start();
-	$server = "localhost";
-	$database="--";
-	$username="root";
-	$password="q";
+	## Change these four variable value with yours
+	$server = "your database host";
+	$database="your database name";
+	$username="your database username";
+	$password="your database password";
 ###sambung server
 	mysql_pconnect($server,$username,$password) or die(mysql_error()."pastikan sever/username/password telah terisi dengan benar");
 ###pilih database
