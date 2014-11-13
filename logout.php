@@ -1,0 +1,10 @@
+<?php
+session_start();
+unset($_SESSION["username"]);
+unset($_SESSION["level"]);
+unset($_SESSION["nama"]);
+unset($_SESSION["id"]);
+unset($_SESSION["gambar"]);
+header("Location:login");
+exit();
+?>
