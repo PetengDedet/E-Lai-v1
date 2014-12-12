@@ -1,4 +1,4 @@
-A simple E-Learning management system for discuss, sending/reciving message and online exam.
+A simple E-Learning management system for discuss forum, sending/reciving message and online exam.
 
 
 **Features**
@@ -15,9 +15,9 @@ Clone this rrepostitory to your web host directory
 ```bash
 $ git clone https://github.com/PetengDedet/E-Lai-v1.git
 ```
-Import <kbd>Database.sql</kbd> file to your database
+Import `Database.sql` file to your database
 
-Change the connection in <kbd>/sys/sambung.php</kbd>
+Change the connection in `/sys/sambung.php`
 ```php
 	ob_start();
 	## Change these four variable value with yours
